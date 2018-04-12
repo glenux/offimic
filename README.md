@@ -1,14 +1,10 @@
 
-# Kateryna - Mini-Projet d'introduction à ruby
-
-## Officience Make-It-Count (offimic)
+# Officience Make-It-Count (offimic)
 
 Les bureaux parisiens d'Officience accueillent un co-working à norme sociale et des évènements. Dans cet espace la possibilité d'occuper une place libre dans des conditions de travail optimales est très variables.
 
 L'objectif de ce projet est de produire un ensemble d'outils permettant de mesurer, d'analyser et d'anticiper le nombre de personnes présentes et l'occupation de l'espace.
 
-
-----
 
 ## Phase I - Collecter les données
 
@@ -38,7 +34,6 @@ Le serveur devra être capable de répondre aux requêtes suivantes :
 - Retourne `"OK"` ou `"ERROR"`, selon que l'enregistrement est réussi ou non.
 
 
-----
 
 ## Phase II - Mesurer l'occupation
 
@@ -71,7 +66,7 @@ arp-scan --interface=wlan0 --localnet --timeout 1500 --retry 4 --ignoredups --qu
 
 - http://ruby-doc.org/core-2.3.0/IO.html#popen-method
 
-----
+
 
 ## Phase III - Fichiers de configurations en JSON
 
@@ -96,7 +91,6 @@ Ces fichiers seront de la forme suivante :
 ~~~~
 
 
-----
 
 ## Phase IV - API en JSON
 
@@ -129,7 +123,6 @@ __GET /count/:value__
 ~~~~
 
 
-----
 
 ## Phase V - Stocker le hash pour chaque adresses MAC 
 
