@@ -54,7 +54,7 @@ Le script sera ensuite lancé toutes les 10 minutes.
 
 ### Fonctionnement
 
-- Utiliser IO.popen et la commande suivante pour obtenir la liste des addresses mac actuellement sur le réseau (depuis la table ARP)
+- Utiliser `popen` et la commande suivante pour obtenir la liste des addresses mac actuellement sur le réseau (depuis un scan ARP)
 
 ~~~~
 arp-scan --interface=wlan0 --localnet --timeout 1500 --retry 4 --ignoredups --quiet \
@@ -66,9 +66,7 @@ arp-scan --interface=wlan0 --localnet --timeout 1500 --retry 4 --ignoredups --qu
 
 - http://ruby-doc.org/core-2.3.0/IO.html#popen-method
 
-
-
-## Phase III - Fichiers de configurations en JSON
+## Phase III - Fichiers de configuration en JSON
 
 Modifier `offimic-api` et `offimic-measure` de telle sorte qu'ils lisent un fichier de configuration au démarrage et utilisent les paramètres qui y sont présents.
 
