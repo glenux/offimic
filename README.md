@@ -5,4 +5,12 @@ Les bureaux parisiens d'Officience accueillent un co-working à norme sociale et
 
 L'objectif de ce projet est de produire un ensemble d'outils permettant de mesurer, d'analyser et d'anticiper le nombre de personnes présentes et l'occupation de l'espace.
 
-Implémentation en ruby - https://github.com/Vediaskina/offimic-ruby
+[Voir l'énoncé du projet](ENONCE.md)
+
+## Implémentations
+
+| Auteur | Langage | URL |
+|---|---|---|
+|  @Vediaskina | Ruby | https://github.com/Vediaskina/offimic-ruby |
+
+
