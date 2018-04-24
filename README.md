@@ -11,6 +11,6 @@ L'objectif de ce projet est de produire un ensemble d'outils permettant de mesur
 
 | Auteur | Langage | URL |
 |---|---|---|
-|  @Vediaskina | Ruby | https://github.com/Vediaskina/offimic-ruby |
+|  [@Vediaskina](https://github.com/Vediaskina/) | Ruby | [Vediaskina/offimic-rub](https://github.com/Vediaskina/offimic-ruby) |
 
 
